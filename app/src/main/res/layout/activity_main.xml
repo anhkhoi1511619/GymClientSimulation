@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnStartClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_cmd"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:text="Command:"-->
+<!--        android:textSize="25sp"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/edit_cmd"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnStartClient" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/edit_cmd"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="25sp"-->
+<!--        android:inputType="number"-->
+<!--        android:text="1"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/tv_cmd"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnStartClient" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/tv_DiaNo"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Diamond Number"-->
+<!--        android:textSize="25sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/edit_cmd" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/edit_DiaNo"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="25sp"-->
+<!--        android:inputType="number"-->
+<!--        android:text="123"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/tv_DiaNo"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/edit_cmd" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/tv_RouteID"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Route ID"-->
+<!--        android:textSize="25sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_DiaNo" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/edit_RouteID"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="25sp"-->
+<!--        android:inputType="number"-->
+<!--        android:text="123"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/tv_RouteID"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/edit_DiaNo" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/tv_StartTime"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:textSize="25sp"-->
+<!--        android:text="Start Time"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_RouteID" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/edit_StartTime"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="25sp"-->
+<!--        android:inputType="number"-->
+<!--        android:text="123"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/tv_StartTime"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/edit_RouteID" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_StopSeq"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:textSize="25sp"-->
+<!--        android:text="Stop Sequence"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_StartTime" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/edit_StopSeq"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="25sp"-->
+<!--        android:inputType="number"-->
+<!--        android:text="123"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/tv_StopSeq"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/edit_StartTime" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/tv_SignalStrength"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:textSize="25sp"-->
+<!--        android:text="Signal Strength"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_StopSeq" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/edit_SignalStrength"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="25sp"-->
+<!--        android:inputType="number"-->
+<!--        android:text="123"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/tv_SignalStrength"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/edit_StopSeq" />-->
+<!--    <Button-->
+<!--        android:id="@+id/btnSend"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="SEND"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_SignalStrength" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
